@@ -6,9 +6,9 @@ def countdown(number)
 end
 end
 
-def countdown_with_sleep(number, second)
+def countdown_with_sleep(number)
   number = 10
-  number.sleep(1.second)
+  number.sleep(1)
   until number == 0
   number-=1
 end
