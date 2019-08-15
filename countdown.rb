@@ -8,7 +8,7 @@ end
 
 def countdown_with_sleep(number)
   number = 10
-  number sleep(1.send)
+  number.sleep(1.second)
   until number == 0
   number-=1
 end
