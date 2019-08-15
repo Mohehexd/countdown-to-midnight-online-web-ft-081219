@@ -9,4 +9,9 @@ end
   puts "HAPPY NEW YEAR"
 
 def countdown_with_sleep(number)
-  sleep.(1 second)
+  number = 10
+  number sleep(1.second)
+  until number == 0
+  number-=1
+end
+end
